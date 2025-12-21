@@ -4,5 +4,5 @@ const port = 8080;
 
 app.get('/', (req, res) => res.send('HUGH Hello Cloud Build!'));
 
-app.listen(port, () => console.log(App listening on port ${port}));
+app.listen(port, () => {console.log(`App listening on port ${port}`);});
 
