@@ -1,11 +1,11 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/demo-app', '.']
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/hugh-demo-app', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/$PROJECT_ID/demo-app']
+    args: ['push', 'gcr.io/$PROJECT_ID/hugh-demo-app']
 
 images:
-  - 'gcr.io/$PROJECT_ID/demo-app'
+  - 'gcr.io/$PROJECT_ID/hugh-demo-app'
 
 
 options:
